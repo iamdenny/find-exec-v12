@@ -1,14 +1,14 @@
 {
-  "name": "find-exec",
-  "version": "0.0.7",
-  "description": "Finds first available shell command from a list.",
+  "name": "find-exec-v12",
+  "version": "0.1.0",
+  "description": "Finds first available shell command from a list based on node.js v0.12.x",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha test/all.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shime/find-exec.git"
+    "url": "https://github.com/iamdenny/find-exec-v12.git"
   },
   "keywords": [
     "find",
@@ -18,17 +18,17 @@
     "command",
     "line"
   ],
-  "author": "Hrvoje Simic <shime.ferovac@gmail.com>",
+  "author": "Denny Lim <hi.iamdenny@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shime/find-exec/issues"
+    "url": "https://github.com/iamdenny/find-exec-v12/issues"
   },
-  "homepage": "https://github.com/shime/find-exec",
+  "homepage": "https://github.com/iamdenny/find-exec-v12",
   "devDependencies": {
     "expect.js": "^0.3.1",
     "mocha": "^1.21.4"
   },
   "dependencies": {
-    "execSync": "^1.0.2"
+    "sync-exec": "^0.5.0"
   }
 }
